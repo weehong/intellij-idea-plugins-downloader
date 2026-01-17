@@ -1,0 +1,35 @@
+{
+  "name": "jetbrains-plugin-installer",
+  "version": "1.0.0",
+  "description": "Interactive CLI tool to search and install IntelliJ IDEA plugins via JetBrains Marketplace",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "jb-plugins": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "jetbrains",
+    "intellij",
+    "plugins",
+    "cli",
+    "marketplace"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@inquirer/prompts": "^8.2.0",
+    "axios": "^1.6.7",
+    "cli-table3": "^0.6.5",
+    "clipboardy": "^4.0.0",
+    "inquirer": "^9.2.14",
+    "inquirer-autocomplete-prompt": "^3.0.1",
+    "inquirer-checkbox-plus-plus": "^1.1.1",
+    "ora": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
