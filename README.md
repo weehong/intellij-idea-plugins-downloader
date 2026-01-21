@@ -1,4 +1,3 @@
-```markdown
 # IntelliJ IDEA Plugins Downloader
 
 ## Description
